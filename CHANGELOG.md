@@ -4,6 +4,25 @@
 
 [1]: https://www.npmjs.com/package/@google-cloud/bigquery-data-transfer?activeTab=versions
 
+## [2.0.0](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/compare/v1.5.3...v2.0.0) (2020-03-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* move API to typescript code generation (#300)
+
+### Features
+
+* bump release level to GA ([#296](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/issues/296)) ([8d1850a](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/commit/8d1850ad542efb7d6f5ceac245f6e69c6f0550ed))
+* deferred client initialization ([#321](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/issues/321)) ([dc667b3](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/commit/dc667b31d22796946bf94a01ece0cb60d083049c))
+* export protos in src/index.ts ([7426c53](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/commit/7426c53e19b040c60b2c12267eb494b5db90b32a))
+* move API to typescript code generation ([#300](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/issues/300)) ([9094a74](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/commit/9094a74364a8b1a19dff53926453d4a777d5fb21))
+
+
+### Bug Fixes
+
+* pass x-goog-request-params header for streaming calls ([1af9266](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/commit/1af926661ef293b920849562a9106799b212d793))
+
 ### [1.5.3](https://www.github.com/googleapis/nodejs-bigquery-data-transfer/compare/v1.5.2...v1.5.3) (2020-01-21)
 
 
